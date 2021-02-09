@@ -3,7 +3,7 @@ import React from 'react';
 function StartCro(props){
 
     return (
-        <div>
+        <div style={{"display": "flex", "justify-content": "center", "align-items": "center"}}>
             {(props.status === 0) ? 
                 <button onClick={props.start}>Start</button> : ""
             }
